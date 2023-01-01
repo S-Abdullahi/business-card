@@ -8,10 +8,12 @@ import Social from './Social'
 function App(){
     return (
         <>
-            <Intro />
-            <About />
-            <Interest />
-            <Social/>
+            <div className='app-con'>
+                <Intro />
+                <About />
+                <Interest />
+                <Social/>
+            </div>
         </>
     )
 }
