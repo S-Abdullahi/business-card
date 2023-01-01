@@ -12,8 +12,13 @@ export default function Intro(){
             <p className='profession'>FrontEnd Developer</p>
             <p className='email'>s.abdullahi.com</p>
             <div className='contact-link'>
-                <button><img src={require('./image/Mail.png')}/> Email</button>
-                <button className='linkedin'><img src={require('./image/linkedin.png')}/>Linkedin</button>
+                
+                <a href='mailto:salawu.abdullahi01@gmail.com'>
+                    <button><img src={require('./image/Mail.png')}/> Email</button>
+                </a>
+                <a href='https://www.linkedin.com/in/saolalekan/' target='_blank'>
+                    <button className='linkedin'><img src={require('./image/linkedin.png')}/>Linkedin</button>
+                </a>
             </div>
         </div>
     )

@@ -7,14 +7,15 @@ import Social from './Social'
 
 function App(){
     return (
-        <>
-            <div className='app-con'>
+        <div>
+        <span className='bg-name'>S.abdullahi</span>
+        <div className='app-con'>
                 <Intro />
                 <About />
                 <Interest />
                 <Social/>
             </div>
-        </>
+        </div>    
     )
 }
 
