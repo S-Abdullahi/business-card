@@ -15,6 +15,20 @@ body{
     position: relative;
 }
 
+a{
+    text-decoration: none;
+}
+
+/* application main container */
+.app-con{
+    width:30rem;
+    background-color:#1A1B21;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+
+/* profile section */
 .profile-con{
     margin-bottom: 4rem;
 }
@@ -27,13 +41,6 @@ body{
 .profile-picture{
     height: 100%;
     width: 100%;
-}
-
-.app-con{
-    width:30rem;
-    background-color:#1A1B21;
-    border-radius: 1rem;
-    overflow: hidden;
 }
 
 .name, .profession, .email{
@@ -64,10 +71,6 @@ body{
     justify-content:space-between;
     margin: 1rem auto;
     width: 24.5rem;
-}
-
-a{
-    text-decoration: none;
 }
 
 button{
